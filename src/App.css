@@ -1,0 +1,100 @@
+.blue{
+  background: #038cfc;
+ color: white;
+ 
+ }
+.name{
+  text-align: center;
+  color: #038cfc;
+  font-weight: 20px;
+  font-size: 35px;
+}
+.App{
+  margin-top: 20px;
+}
+.profile{
+  position: relative;
+  height: 650px;
+  bottom: 10px;
+}
+.img{
+  width: 100%;
+  height: 100%;
+}
+.avatar{
+position: relative;
+  top:25px;
+  margin: 25px 80px 25px 94px;
+  border: 2px solid;
+
+}
+
+.infor{
+  color: white;
+  position: relative;
+  top:50px;
+}
+.header{
+  font-size: 17px;
+}
+.header-job{
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+ font-weight: 20px;
+}
+.icon-rotate{
+  font-size: 20px;
+  margin-right: 10px;
+  -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+.icon{
+  margin-right: 10px;
+}
+.content{
+  font-size: 13px;
+  font-weight: 10px;
+}
+.skill{
+  color: white;
+  position: relative;
+  top:70px;
+}
+.progress-bar{
+  width: 40%;
+  background:white;
+}
+.progress{
+  background:  #6e6f70  ;
+}
+.header-right{
+  position: absolute;
+  width: 80%;
+right: 0;
+}
+.header-blue{
+  font-size: 17px;
+  color: #038cfc;
+  font-weight: 1000;
+  position: relative;
+}
+
+.note{
+  position: relative;
+  top:100px;
+}
+hr{
+  width: 50%;
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+border-top: 5px solid #038cfc !important;
+}
+.content-job{
+  margin-bottom: 10px;
+}
